@@ -36,8 +36,8 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-3 transition-all duration-300 transform hover:scale-105 hover:text-yellow-400">
               İletişim
             </h3>
-            <p className="text-sm text-gray-300 mb-1">Adres: Örnek Mahallesi, No: 123, İstanbul</p>
-            <p className="text-sm text-gray-300">Telefon: 0123 456 78 90</p>
+            <p className="text-sm text-gray-300 mb-1">ERCİŞ</p>
+            <p className="text-sm text-gray-300">+90555 555 5555</p>
           </div>
         </div>
       </div>
