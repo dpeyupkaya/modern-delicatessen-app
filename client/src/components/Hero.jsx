@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'; // AOS kütüphanesini import et
 const Hero = () => {
   // AOS başlatma
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true }); // Animasyonlar sadece bir kere çalışsın
+    AOS.init({ duration: 1000, once: true }); 
   }, []);
 
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
       {/* Video Arka Plan */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
         <video
-          src="/images/real_gost.mp4" // Video dosyasının yolunu doğru şekilde belirtin
+          src="/images/real_gost.mp4" 
           autoPlay
           loop
           muted

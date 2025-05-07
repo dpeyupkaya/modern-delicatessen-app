@@ -8,9 +8,9 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gradient-to-r from-yellow-400 to-orange-600 text-white p-4 shadow-md sticky top-0 z-50">
+    <header className="bg-gray-800 text-white p-4 shadow-md sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-3xl font-extrabold tracking-wider animate__animated animate__fadeIn animate__delay-1s">
+        <h1 className="text-3xl font-extrabold tracking-wider text-gray-100 hover:text-blue-500 transition-all duration-300">
           Şarküterim
         </h1>
         <nav className={`md:flex space-x-6 ${isMenuOpen ? 'block' : 'hidden'} md:block`}>
@@ -18,7 +18,7 @@ const Header = () => {
             <li>
               <a
                 href="/"
-                className="hover:text-yellow-300 transition duration-300 transform hover:scale-105"
+                className="hover:text-blue-400 transition duration-300 transform hover:scale-105"
               >
                 Anasayfa
               </a>
@@ -26,7 +26,7 @@ const Header = () => {
             <li>
               <a
                 href="/about"
-                className="hover:text-yellow-300 transition duration-300 transform hover:scale-105"
+                className="hover:text-blue-400 transition duration-300 transform hover:scale-105"
               >
                 Hakkımızda
               </a>
@@ -34,7 +34,7 @@ const Header = () => {
             <li>
               <a
                 href="/contact"
-                className="hover:text-yellow-300 transition duration-300 transform hover:scale-105"
+                className="hover:text-blue-400 transition duration-300 transform hover:scale-105"
               >
                 İletişim
               </a>
@@ -68,11 +68,11 @@ const Header = () => {
           isMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
         } overflow-hidden`}
       >
-        <ul className="space-y-4 p-4 bg-gradient-to-r from-yellow-400 to-orange-600 text-center">
+        <ul className="space-y-4 p-4 bg-gray-800 text-center">
           <li>
             <a
               href="/"
-              className="hover:text-yellow-300 transition duration-300 transform hover:scale-105"
+              className="hover:text-blue-400 transition duration-300 transform hover:scale-105"
             >
               Anasayfa
             </a>
@@ -80,7 +80,7 @@ const Header = () => {
           <li>
             <a
               href="/about"
-              className="hover:text-yellow-300 transition duration-300 transform hover:scale-105"
+              className="hover:text-blue-400 transition duration-300 transform hover:scale-105"
             >
               Hakkımızda
             </a>
@@ -88,7 +88,7 @@ const Header = () => {
           <li>
             <a
               href="/contact"
-              className="hover:text-yellow-300 transition duration-300 transform hover:scale-105"
+              className="hover:text-blue-400 transition duration-300 transform hover:scale-105"
             >
               İletişim
             </a>
